@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BB767087FD5173955374BDC /* callbacks.c in Sources */ = {isa = PBXBuildFile; fileRef = 3E1435B53D39782556DF5B28 /* callbacks.c */; };
+		6380291006B9045900C3289C /* compress.c in Sources */ = {isa = PBXBuildFile; fileRef = 591516930D9D6BE07C3F3FAA /* compress.c */; };
+		6E7C1866708564EC63EB7D3C /* host.c in Sources */ = {isa = PBXBuildFile; fileRef = 477D7BF266EA21B8450414E5 /* host.c */; };
+		40BF45AC218E15D048CE4D6D /* list.c in Sources */ = {isa = PBXBuildFile; fileRef = 5EDA636D3A8576814D0049AA /* list.c */; };
+		052E244163F8431E75680D9F /* packet.c in Sources */ = {isa = PBXBuildFile; fileRef = 36A7208675662F9054C031D6 /* packet.c */; };
+		710D4D6218C53B0D54906E76 /* peer.c in Sources */ = {isa = PBXBuildFile; fileRef = 010A57964F306EAF26025198 /* peer.c */; };
+		4E573A61670B39E304C13B6C /* protocol.c in Sources */ = {isa = PBXBuildFile; fileRef = 2BB720EF3F3414CE7EED0FD2 /* protocol.c */; };
+		2AF159B176980BB478371585 /* unix.c in Sources */ = {isa = PBXBuildFile; fileRef = 31B772102F843BDE7F0525D8 /* unix.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E1435B53D39782556DF5B28 /* callbacks.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "callbacks.c"; path = "../../examples/ThirdPartyLibs/enet/callbacks.c"; sourceTree = "<group>"; };
+		591516930D9D6BE07C3F3FAA /* compress.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "compress.c"; path = "../../examples/ThirdPartyLibs/enet/compress.c"; sourceTree = "<group>"; };
+		477D7BF266EA21B8450414E5 /* host.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "host.c"; path = "../../examples/ThirdPartyLibs/enet/host.c"; sourceTree = "<group>"; };
+		5C3268CC5FC9225462791D5A /* callbacks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "callbacks.h"; path = "../../examples/ThirdPartyLibs/enet/include/enet/callbacks.h"; sourceTree = "<group>"; };
+		3D3B78932CB52B1F2FBF5912 /* enet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "enet.h"; path = "../../examples/ThirdPartyLibs/enet/include/enet/enet.h"; sourceTree = "<group>"; };
+		389A3EA56B410DF50831569E /* list.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "list.h"; path = "../../examples/ThirdPartyLibs/enet/include/enet/list.h"; sourceTree = "<group>"; };
+		2E74764620743F153B002DA0 /* protocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "protocol.h"; path = "../../examples/ThirdPartyLibs/enet/include/enet/protocol.h"; sourceTree = "<group>"; };
+		7ED23A1E395E5836489E109F /* time.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "time.h"; path = "../../examples/ThirdPartyLibs/enet/include/enet/time.h"; sourceTree = "<group>"; };
+		3E001F297545370D71E57C70 /* types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "types.h"; path = "../../examples/ThirdPartyLibs/enet/include/enet/types.h"; sourceTree = "<group>"; };
+		28B647B54F1E404241351E11 /* unix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "unix.h"; path = "../../examples/ThirdPartyLibs/enet/include/enet/unix.h"; sourceTree = "<group>"; };
+		22C950160CCB784F0F7D725A /* utility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "utility.h"; path = "../../examples/ThirdPartyLibs/enet/include/enet/utility.h"; sourceTree = "<group>"; };
+		25D02B5315903E772BAD7544 /* win32.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "win32.h"; path = "../../examples/ThirdPartyLibs/enet/include/enet/win32.h"; sourceTree = "<group>"; };
+		5EDA636D3A8576814D0049AA /* list.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "list.c"; path = "../../examples/ThirdPartyLibs/enet/list.c"; sourceTree = "<group>"; };
+		36A7208675662F9054C031D6 /* packet.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "packet.c"; path = "../../examples/ThirdPartyLibs/enet/packet.c"; sourceTree = "<group>"; };
+		010A57964F306EAF26025198 /* peer.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "peer.c"; path = "../../examples/ThirdPartyLibs/enet/peer.c"; sourceTree = "<group>"; };
+		2BB720EF3F3414CE7EED0FD2 /* protocol.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "protocol.c"; path = "../../examples/ThirdPartyLibs/enet/protocol.c"; sourceTree = "<group>"; };
+		31B772102F843BDE7F0525D8 /* unix.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; name = "unix.c"; path = "../../examples/ThirdPartyLibs/enet/unix.c"; sourceTree = "<group>"; };
+		4424297A2E1E3D66203042EB /* libenet_xcode4_x64_release.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libenet_xcode4_x64_release.a"; path = "libenet_xcode4_x64_release.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CD602377C3E6CF623EC073F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D716388045D790141A0280F /* enet */ = {
+			isa = PBXGroup;
+			children = (
+				76FF077348CD1EFE426D188D /* examples */,
+				715E63915B63567F44DD0F97 /* Products */,
+			);
+			name = "enet";
+			sourceTree = "<group>";
+		};
+		76FF077348CD1EFE426D188D /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				033109E757AA69847DB11B97 /* ThirdPartyLibs */,
+			);
+			name = "examples";
+			sourceTree = "<group>";
+		};
+		033109E757AA69847DB11B97 /* ThirdPartyLibs */ = {
+			isa = PBXGroup;
+			children = (
+				6A5068E73978040E4732578E /* enet */,
+			);
+			name = "ThirdPartyLibs";
+			sourceTree = "<group>";
+		};
+		6A5068E73978040E4732578E /* enet */ = {
+			isa = PBXGroup;
+			children = (
+				3E1435B53D39782556DF5B28 /* callbacks.c */,
+				591516930D9D6BE07C3F3FAA /* compress.c */,
+				477D7BF266EA21B8450414E5 /* host.c */,
+				2F394BE62A5F6A5520007DD0 /* include */,
+				5EDA636D3A8576814D0049AA /* list.c */,
+				36A7208675662F9054C031D6 /* packet.c */,
+				010A57964F306EAF26025198 /* peer.c */,
+				2BB720EF3F3414CE7EED0FD2 /* protocol.c */,
+				31B772102F843BDE7F0525D8 /* unix.c */,
+			);
+			name = "enet";
+			sourceTree = "<group>";
+		};
+		2F394BE62A5F6A5520007DD0 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				1EFC42923592313677EF19AF /* enet */,
+			);
+			name = "include";
+			sourceTree = "<group>";
+		};
+		1EFC42923592313677EF19AF /* enet */ = {
+			isa = PBXGroup;
+			children = (
+				5C3268CC5FC9225462791D5A /* callbacks.h */,
+				3D3B78932CB52B1F2FBF5912 /* enet.h */,
+				389A3EA56B410DF50831569E /* list.h */,
+				2E74764620743F153B002DA0 /* protocol.h */,
+				7ED23A1E395E5836489E109F /* time.h */,
+				3E001F297545370D71E57C70 /* types.h */,
+				28B647B54F1E404241351E11 /* unix.h */,
+				22C950160CCB784F0F7D725A /* utility.h */,
+				25D02B5315903E772BAD7544 /* win32.h */,
+			);
+			name = "enet";
+			sourceTree = "<group>";
+		};
+		715E63915B63567F44DD0F97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4424297A2E1E3D66203042EB /* libenet_xcode4_x64_release.a */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6BFE7B8D70496287489A2AF0 /* enet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 033B466B411A1CC7515E7AE0 /* Build configuration list for PBXNativeTarget "enet" */;
+			buildPhases = (
+				09F16CBB1BAA556907E42A87 /* Resources */,
+				2A350669692F1BB85C692D7E /* Sources */,
+				5CD602377C3E6CF623EC073F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "enet";
+			productName = "enet";
+			productReference = 4424297A2E1E3D66203042EB /* libenet_xcode4_x64_release.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "enet" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 5D716388045D790141A0280F /* enet */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6BFE7B8D70496287489A2AF0 /* libenet_xcode4_x64_release.a */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		09F16CBB1BAA556907E42A87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A350669692F1BB85C692D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB767087FD5173955374BDC /* callbacks.c in Sources */,
+				6380291006B9045900C3289C /* compress.c in Sources */,
+				6E7C1866708564EC63EB7D3C /* host.c in Sources */,
+				40BF45AC218E15D048CE4D6D /* list.c in Sources */,
+				052E244163F8431E75680D9F /* packet.c in Sources */,
+				710D4D6218C53B0D54906E76 /* peer.c in Sources */,
+				4E573A61670B39E304C13B6C /* protocol.c in Sources */,
+				2AF159B176980BB478371585 /* unix.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34DE143F5C750A7476955BF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "../../test/Bullet2/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				SDKROOT = iphoneos;
+				ARCHS = "armv7";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = "../../bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = "enet_xcode4_x64_release";
+			};
+			name = "Release";
+		};
+		393A2706088E30FD4383790E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "../../test/Bullet2/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				SDKROOT = iphoneos;
+				ARCHS = "armv7";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "../../bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/lib;
+				PRODUCT_NAME = "enet_xcode4_x64_debug";
+			};
+			name = "Debug";
+		};
+		6BF7326532CB68452A6C1A04 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "../../test/Bullet2/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				SDKROOT = iphoneos;
+				ARCHS = "armv7";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../examples/ThirdPartyLibs/enet",
+					"../../examples/ThirdPartyLibs/enet/include",
+				);
+				OBJROOT = "obj/x64/Release/enet";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../bin";
+			};
+			name = "Release";
+		};
+		085869D61089155A68695490 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "../../test/Bullet2/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				SDKROOT = iphoneos;
+				ARCHS = "armv7";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../examples/ThirdPartyLibs/enet",
+					"../../examples/ThirdPartyLibs/enet/include",
+				);
+				OBJROOT = "obj/x64/Debug/enet";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../bin";
+			};
+			name = "Debug";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		033B466B411A1CC7515E7AE0 /* Build configuration list for PBXNativeTarget "libenet_xcode4_x64_release.a" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34DE143F5C750A7476955BF9 /* Release */,
+				393A2706088E30FD4383790E /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "enet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6BF7326532CB68452A6C1A04 /* Release */,
+				085869D61089155A68695490 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

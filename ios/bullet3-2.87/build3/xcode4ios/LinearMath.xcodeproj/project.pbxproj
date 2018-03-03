@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DB17A3D4D9119803D1A24BB /* btVector3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 143D5AAE719523C236DB7D4E /* btVector3.cpp */; };
+		123768162FDE1FE6710D1B45 /* btAlignedAllocator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7A503A3F33877C805AFE652B /* btAlignedAllocator.cpp */; };
+		1FC362921DEE0B27320F2AAC /* btSerializer64.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D2B4D3F06F43B0B7B027497 /* btSerializer64.cpp */; };
+		304449C411EF10B10379183B /* btGeometryUtil.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 73772D3F21F37129619335F4 /* btGeometryUtil.cpp */; };
+		31A23D5C10447C703AB154EE /* btConvexHull.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1DA16FD1191219F621BB2FBD /* btConvexHull.cpp */; };
+		4BD004E7048A054B3F9E553A /* btThreads.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 61317BD162A16531007E6BEB /* btThreads.cpp */; };
+		53611D6A47B420A631402246 /* btQuickprof.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6DC738B04846195A05DC54D4 /* btQuickprof.cpp */; };
+		67044DA13C800C9E06A74C27 /* btConvexHullComputer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C3756B47DDC35690FCB7435 /* btConvexHullComputer.cpp */; };
+		70DA107C772340C82B832707 /* btSerializer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 7F9600480DDF406B51047B0A /* btSerializer.cpp */; };
+		7315216650092D3D3C815AE0 /* btPolarDecomposition.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1F43070E3B522F8E184446FA /* btPolarDecomposition.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0417020660ED7CEF57CB5ABE /* btCpuFeatureUtility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btCpuFeatureUtility.h; path = ../../src/LinearMath/btCpuFeatureUtility.h; sourceTree = "<group>"; };
+		043228C61FDC405C770450AA /* btRandom.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btRandom.h; path = ../../src/LinearMath/btRandom.h; sourceTree = "<group>"; };
+		046A7DFC2E7E727D07D76D60 /* btMatrix3x3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btMatrix3x3.h; path = ../../src/LinearMath/btMatrix3x3.h; sourceTree = "<group>"; };
+		088C46632A073C7017FB7FF2 /* btMotionState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btMotionState.h; path = ../../src/LinearMath/btMotionState.h; sourceTree = "<group>"; };
+		09CE41B037EC061700C33F7D /* btPoolAllocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btPoolAllocator.h; path = ../../src/LinearMath/btPoolAllocator.h; sourceTree = "<group>"; };
+		10E76805268323EC155A6EFA /* btStackAlloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btStackAlloc.h; path = ../../src/LinearMath/btStackAlloc.h; sourceTree = "<group>"; };
+		143D5AAE719523C236DB7D4E /* btVector3.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btVector3.cpp; path = ../../src/LinearMath/btVector3.cpp; sourceTree = "<group>"; };
+		166E1C871A2C7813455975F0 /* btTransformUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btTransformUtil.h; path = ../../src/LinearMath/btTransformUtil.h; sourceTree = "<group>"; };
+		17544CC953C61B247FE2586B /* libLinearMath_xcode4_x64_debug.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLinearMath_xcode4_x64_debug.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D825332206D5A66078F6D8C /* btSpatialAlgebra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSpatialAlgebra.h; path = ../../src/LinearMath/btSpatialAlgebra.h; sourceTree = "<group>"; };
+		1DA16FD1191219F621BB2FBD /* btConvexHull.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btConvexHull.cpp; path = ../../src/LinearMath/btConvexHull.cpp; sourceTree = "<group>"; };
+		1F43070E3B522F8E184446FA /* btPolarDecomposition.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btPolarDecomposition.cpp; path = ../../src/LinearMath/btPolarDecomposition.cpp; sourceTree = "<group>"; };
+		1F760BF921AC2C40575545F7 /* btHashMap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btHashMap.h; path = ../../src/LinearMath/btHashMap.h; sourceTree = "<group>"; };
+		1FF729351674240E1FF875FC /* btAlignedObjectArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btAlignedObjectArray.h; path = ../../src/LinearMath/btAlignedObjectArray.h; sourceTree = "<group>"; };
+		2658044F76C64D0B0E652AC1 /* btTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btTransform.h; path = ../../src/LinearMath/btTransform.h; sourceTree = "<group>"; };
+		2A4B3F7D5DBC748E19CB753B /* btConvexHullComputer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btConvexHullComputer.h; path = ../../src/LinearMath/btConvexHullComputer.h; sourceTree = "<group>"; };
+		2D7F7C5944EB449D58783CAF /* btQuadWord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btQuadWord.h; path = ../../src/LinearMath/btQuadWord.h; sourceTree = "<group>"; };
+		31D71BA259F4564F1562728B /* btPolarDecomposition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btPolarDecomposition.h; path = ../../src/LinearMath/btPolarDecomposition.h; sourceTree = "<group>"; };
+		357B4D3A4355389016217397 /* btQuaternion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btQuaternion.h; path = ../../src/LinearMath/btQuaternion.h; sourceTree = "<group>"; };
+		3B440B72193566F84B982918 /* btAabbUtil2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btAabbUtil2.h; path = ../../src/LinearMath/btAabbUtil2.h; sourceTree = "<group>"; };
+		3C3756B47DDC35690FCB7435 /* btConvexHullComputer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btConvexHullComputer.cpp; path = ../../src/LinearMath/btConvexHullComputer.cpp; sourceTree = "<group>"; };
+		3D8B0BE32376206B1149522F /* btGrahamScan2dConvexHull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btGrahamScan2dConvexHull.h; path = ../../src/LinearMath/btGrahamScan2dConvexHull.h; sourceTree = "<group>"; };
+		4D2B4D3F06F43B0B7B027497 /* btSerializer64.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btSerializer64.cpp; path = ../../src/LinearMath/btSerializer64.cpp; sourceTree = "<group>"; };
+		4F7E04E627EB4AB4202C5AC8 /* btAlignedAllocator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btAlignedAllocator.h; path = ../../src/LinearMath/btAlignedAllocator.h; sourceTree = "<group>"; };
+		553A76E9522503C71431286C /* btQuickprof.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btQuickprof.h; path = ../../src/LinearMath/btQuickprof.h; sourceTree = "<group>"; };
+		5DE722CD573646B25C7F1FA9 /* btConvexHull.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btConvexHull.h; path = ../../src/LinearMath/btConvexHull.h; sourceTree = "<group>"; };
+		5E8B2F6273CA6A64767F29C5 /* btMatrixX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btMatrixX.h; path = ../../src/LinearMath/btMatrixX.h; sourceTree = "<group>"; };
+		5EA821BE57A452D87A165CA5 /* btIDebugDraw.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btIDebugDraw.h; path = ../../src/LinearMath/btIDebugDraw.h; sourceTree = "<group>"; };
+		61317BD162A16531007E6BEB /* btThreads.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btThreads.cpp; path = ../../src/LinearMath/btThreads.cpp; sourceTree = "<group>"; };
+		632C5F8D5B1A386B12EE07E0 /* btGeometryUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btGeometryUtil.h; path = ../../src/LinearMath/btGeometryUtil.h; sourceTree = "<group>"; };
+		638334CC5DC132EF239E71AF /* btThreads.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btThreads.h; path = ../../src/LinearMath/btThreads.h; sourceTree = "<group>"; };
+		6A8168DA5B1C3E994A8A2CC0 /* btScalar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btScalar.h; path = ../../src/LinearMath/btScalar.h; sourceTree = "<group>"; };
+		6BE12D5D65C70D9B77E850AA /* btSerializer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btSerializer.h; path = ../../src/LinearMath/btSerializer.h; sourceTree = "<group>"; };
+		6DC738B04846195A05DC54D4 /* btQuickprof.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btQuickprof.cpp; path = ../../src/LinearMath/btQuickprof.cpp; sourceTree = "<group>"; };
+		7234726E43C2167B08897988 /* btList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btList.h; path = ../../src/LinearMath/btList.h; sourceTree = "<group>"; };
+		73772D3F21F37129619335F4 /* btGeometryUtil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btGeometryUtil.cpp; path = ../../src/LinearMath/btGeometryUtil.cpp; sourceTree = "<group>"; };
+		784C7712467559C316FC1541 /* btMinMax.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btMinMax.h; path = ../../src/LinearMath/btMinMax.h; sourceTree = "<group>"; };
+		79662E082A7D18CB738D6CFD /* btDefaultMotionState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btDefaultMotionState.h; path = ../../src/LinearMath/btDefaultMotionState.h; sourceTree = "<group>"; };
+		7A503A3F33877C805AFE652B /* btAlignedAllocator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btAlignedAllocator.cpp; path = ../../src/LinearMath/btAlignedAllocator.cpp; sourceTree = "<group>"; };
+		7EEA6A415A1F64AB33C62C6D /* btVector3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = btVector3.h; path = ../../src/LinearMath/btVector3.h; sourceTree = "<group>"; };
+		7F9600480DDF406B51047B0A /* btSerializer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = btSerializer.cpp; path = ../../src/LinearMath/btSerializer.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2E1A57A465F9772942625DED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F5E5D5F2146298A4A383B4B /* LinearMath */ = {
+			isa = PBXGroup;
+			children = (
+				564028F71EEC1C9175DF2569 /* src */,
+				4760152802DB16BD005D14B7 /* Products */,
+			);
+			name = LinearMath;
+			sourceTree = "<group>";
+		};
+		3BA22AA34E72528E252A153E /* LinearMath */ = {
+			isa = PBXGroup;
+			children = (
+				3B440B72193566F84B982918 /* btAabbUtil2.h */,
+				7A503A3F33877C805AFE652B /* btAlignedAllocator.cpp */,
+				4F7E04E627EB4AB4202C5AC8 /* btAlignedAllocator.h */,
+				1FF729351674240E1FF875FC /* btAlignedObjectArray.h */,
+				1DA16FD1191219F621BB2FBD /* btConvexHull.cpp */,
+				5DE722CD573646B25C7F1FA9 /* btConvexHull.h */,
+				3C3756B47DDC35690FCB7435 /* btConvexHullComputer.cpp */,
+				2A4B3F7D5DBC748E19CB753B /* btConvexHullComputer.h */,
+				0417020660ED7CEF57CB5ABE /* btCpuFeatureUtility.h */,
+				79662E082A7D18CB738D6CFD /* btDefaultMotionState.h */,
+				73772D3F21F37129619335F4 /* btGeometryUtil.cpp */,
+				632C5F8D5B1A386B12EE07E0 /* btGeometryUtil.h */,
+				3D8B0BE32376206B1149522F /* btGrahamScan2dConvexHull.h */,
+				1F760BF921AC2C40575545F7 /* btHashMap.h */,
+				5EA821BE57A452D87A165CA5 /* btIDebugDraw.h */,
+				7234726E43C2167B08897988 /* btList.h */,
+				046A7DFC2E7E727D07D76D60 /* btMatrix3x3.h */,
+				5E8B2F6273CA6A64767F29C5 /* btMatrixX.h */,
+				784C7712467559C316FC1541 /* btMinMax.h */,
+				088C46632A073C7017FB7FF2 /* btMotionState.h */,
+				1F43070E3B522F8E184446FA /* btPolarDecomposition.cpp */,
+				31D71BA259F4564F1562728B /* btPolarDecomposition.h */,
+				09CE41B037EC061700C33F7D /* btPoolAllocator.h */,
+				2D7F7C5944EB449D58783CAF /* btQuadWord.h */,
+				357B4D3A4355389016217397 /* btQuaternion.h */,
+				6DC738B04846195A05DC54D4 /* btQuickprof.cpp */,
+				553A76E9522503C71431286C /* btQuickprof.h */,
+				043228C61FDC405C770450AA /* btRandom.h */,
+				6A8168DA5B1C3E994A8A2CC0 /* btScalar.h */,
+				7F9600480DDF406B51047B0A /* btSerializer.cpp */,
+				6BE12D5D65C70D9B77E850AA /* btSerializer.h */,
+				4D2B4D3F06F43B0B7B027497 /* btSerializer64.cpp */,
+				1D825332206D5A66078F6D8C /* btSpatialAlgebra.h */,
+				10E76805268323EC155A6EFA /* btStackAlloc.h */,
+				61317BD162A16531007E6BEB /* btThreads.cpp */,
+				638334CC5DC132EF239E71AF /* btThreads.h */,
+				2658044F76C64D0B0E652AC1 /* btTransform.h */,
+				166E1C871A2C7813455975F0 /* btTransformUtil.h */,
+				143D5AAE719523C236DB7D4E /* btVector3.cpp */,
+				7EEA6A415A1F64AB33C62C6D /* btVector3.h */,
+			);
+			name = LinearMath;
+			sourceTree = "<group>";
+		};
+		4760152802DB16BD005D14B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17544CC953C61B247FE2586B /* libLinearMath_xcode4_x64_debug.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		564028F71EEC1C9175DF2569 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				3BA22AA34E72528E252A153E /* LinearMath */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5FD7507C2CAF1B227B844D29 /* LinearMath */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C93FC137076A1C5D107041 /* Build configuration list for PBXNativeTarget "LinearMath" */;
+			buildPhases = (
+				4F8C12BF447764472D4D47D2 /* Resources */,
+				52BA71C96F8E06C306AB772E /* Sources */,
+				2E1A57A465F9772942625DED /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LinearMath;
+			productName = LinearMath;
+			productReference = 17544CC953C61B247FE2586B /* libLinearMath_xcode4_x64_debug.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "LinearMath" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F5E5D5F2146298A4A383B4B /* LinearMath */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5FD7507C2CAF1B227B844D29 /* LinearMath */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F8C12BF447764472D4D47D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52BA71C96F8E06C306AB772E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123768162FDE1FE6710D1B45 /* btAlignedAllocator.cpp in Sources */,
+				31A23D5C10447C703AB154EE /* btConvexHull.cpp in Sources */,
+				67044DA13C800C9E06A74C27 /* btConvexHullComputer.cpp in Sources */,
+				304449C411EF10B10379183B /* btGeometryUtil.cpp in Sources */,
+				7315216650092D3D3C815AE0 /* btPolarDecomposition.cpp in Sources */,
+				53611D6A47B420A631402246 /* btQuickprof.cpp in Sources */,
+				70DA107C772340C82B832707 /* btSerializer.cpp in Sources */,
+				1FC362921DEE0B27320F2AAC /* btSerializer64.cpp in Sources */,
+				4BD004E7048A054B3F9E553A /* btThreads.cpp in Sources */,
+				0DB17A3D4D9119803D1A24BB /* btVector3.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		19AD3A5816EC715D303F25E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = ../../test/Bullet2/Info.plist;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = LinearMath_xcode4_x64_release;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Release;
+		};
+		1D41181075303538140F13F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = ../../bin;
+				ENABLE_BITCODE = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INFOPLIST_FILE = ../../test/Bullet2/Info.plist;
+				INSTALL_PATH = /usr/local/lib;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				PRODUCT_NAME = LinearMath_xcode4_x64_debug;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 arm64 armv7s";
+			};
+			name = Debug;
+		};
+		435E678E42C8178F4637503E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../src;
+				INFOPLIST_FILE = ../../test/Bullet2/Info.plist;
+				OBJROOT = obj/x64/Release/LinearMath;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = "-ffast-math";
+				SDKROOT = macosx;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../bin;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+		77A24A4258867BC837705055 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "_DEBUG=1";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../../src;
+				INFOPLIST_FILE = ../../test/Bullet2/Info.plist;
+				OBJROOT = obj/x64/Debug/LinearMath;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "-ffast-math";
+				SDKROOT = macosx;
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = ../../bin;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "LinearMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				435E678E42C8178F4637503E /* Release */,
+				77A24A4258867BC837705055 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C93FC137076A1C5D107041 /* Build configuration list for PBXNativeTarget "LinearMath" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				19AD3A5816EC715D303F25E8 /* Release */,
+				1D41181075303538140F13F9 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}

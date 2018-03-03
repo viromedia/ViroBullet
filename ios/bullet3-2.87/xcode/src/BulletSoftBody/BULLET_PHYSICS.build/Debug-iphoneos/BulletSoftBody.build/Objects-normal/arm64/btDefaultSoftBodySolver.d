@@ -1,0 +1,34 @@
+dependencies: \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletSoftBody/btDefaultSoftBodySolver.cpp \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/CollisionShapes/btTriangleIndexVertexArray.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/CollisionShapes/btStridingMeshInterface.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btVector3.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btScalar.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btMinMax.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btAlignedAllocator.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/CollisionShapes/btTriangleCallback.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/CollisionShapes/btConcaveShape.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/CollisionShapes/btCollisionShape.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btTransform.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btMatrix3x3.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btQuaternion.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btQuadWord.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/BroadphaseCollision/btBroadphaseProxy.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btAlignedObjectArray.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/CollisionDispatch/btCollisionObject.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btMotionState.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletSoftBody/btDefaultSoftBodySolver.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletSoftBody/btSoftBodySolvers.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletSoftBody/btSoftBodySolverVertexBuffer.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/CollisionShapes/btCapsuleShape.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/CollisionShapes/btConvexInternalShape.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/CollisionShapes/btConvexShape.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/CollisionShapes/btCollisionMargin.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btAabbUtil2.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletSoftBody/btSoftBody.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btIDebugDraw.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletDynamics/Dynamics/btRigidBody.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/CollisionDispatch/btCollisionCreateFunc.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletSoftBody/btSparseSDF.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/NarrowPhaseCollision/btGjkEpa2.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/BroadphaseCollision/btDbvt.h

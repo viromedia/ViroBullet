@@ -1,0 +1,2 @@
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar qc libclsocket.a  CMakeFiles/clsocket.dir/src/SimpleSocket.o CMakeFiles/clsocket.dir/src/ActiveSocket.o CMakeFiles/clsocket.dir/src/PassiveSocket.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib libclsocket.a

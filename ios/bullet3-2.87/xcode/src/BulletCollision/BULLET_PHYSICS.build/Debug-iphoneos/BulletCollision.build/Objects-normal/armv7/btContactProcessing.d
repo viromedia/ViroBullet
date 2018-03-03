@@ -1,0 +1,27 @@
+dependencies: \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/Gimpact/btContactProcessing.cpp \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/Gimpact/btContactProcessing.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btTransform.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btMatrix3x3.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btVector3.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btScalar.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btMinMax.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btAlignedAllocator.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btQuaternion.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btQuadWord.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btAlignedObjectArray.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/Gimpact/btTriangleShapeEx.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/CollisionShapes/btCollisionShape.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/BroadphaseCollision/btBroadphaseProxy.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/CollisionShapes/btTriangleShape.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/CollisionShapes/btConvexShape.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/CollisionShapes/btCollisionMargin.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/CollisionShapes/btBoxShape.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/CollisionShapes/btPolyhedralConvexShape.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/CollisionShapes/btConvexInternalShape.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btAabbUtil2.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/Gimpact/btBoxCollision.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/Gimpact/btClipPolygon.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/LinearMath/btGeometryUtil.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/Gimpact/btGeometryOperations.h \
+  /Users/radvani/Source/ViroBullet/ios/bullet3-2.87/src/BulletCollision/Gimpact/btContactProcessingStructs.h

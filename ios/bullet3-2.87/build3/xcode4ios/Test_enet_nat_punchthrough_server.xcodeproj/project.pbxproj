@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AEF3F6D361536C433E32BAE /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 442F747B70665B0623C15F66 /* main.cpp */; };
+		315D5B370C195B7D1C2F6753 /* libenet.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34FB67C2079645825ED84EA6 /* libenet.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		68386C9D4B114CF8371C2037 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5126563217090044774168D5 /* enet.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4424297A2E1E3D66203042EB;
+			remoteInfo = "libenet_xcode4_x64_release.a";
+		};
+		318F5D9717645BF00F0A159B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5126563217090044774168D5 /* enet.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6BFE7B8D70496287489A2AF0;
+			remoteInfo = "libenet_xcode4_x64_release.a";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		442F747B70665B0623C15F66 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "main.cpp"; path = "../../test/enet/nat_punchthrough/server/main.cpp"; sourceTree = "<group>"; };
+		60241ACB0B47151A0F472291 /* Test_enet_nat_punchthrough_server_xcode4_x64_release */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = "Test_enet_nat_punchthrough_server_xcode4_x64_release"; path = "Test_enet_nat_punchthrough_server_xcode4_x64_release"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5126563217090044774168D5 /* enet.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "enet.xcodeproj"; path = "enet.xcodeproj"; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C2C71026A4029987B741044 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				315D5B370C195B7D1C2F6753 /* libenet.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		205E1248350D6CCE67AD3630 /* Test_enet_nat_punchthrough_server */ = {
+			isa = PBXGroup;
+			children = (
+				223A16724B630D3667280347 /* test */,
+				2E27304F2B09693E16E75185 /* Products */,
+				0C8F19275FE955750D2C5549 /* Projects */,
+			);
+			name = "Test_enet_nat_punchthrough_server";
+			sourceTree = "<group>";
+		};
+		223A16724B630D3667280347 /* test */ = {
+			isa = PBXGroup;
+			children = (
+				5AFF4732306027101A744B62 /* enet */,
+			);
+			name = "test";
+			sourceTree = "<group>";
+		};
+		5AFF4732306027101A744B62 /* enet */ = {
+			isa = PBXGroup;
+			children = (
+				3D1F4FB87217466C70C803B3 /* nat_punchthrough */,
+			);
+			name = "enet";
+			sourceTree = "<group>";
+		};
+		3D1F4FB87217466C70C803B3 /* nat_punchthrough */ = {
+			isa = PBXGroup;
+			children = (
+				17522A461996532F33094BAC /* server */,
+			);
+			name = "nat_punchthrough";
+			sourceTree = "<group>";
+		};
+		17522A461996532F33094BAC /* server */ = {
+			isa = PBXGroup;
+			children = (
+				442F747B70665B0623C15F66 /* main.cpp */,
+			);
+			name = "server";
+			sourceTree = "<group>";
+		};
+		2E27304F2B09693E16E75185 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60241ACB0B47151A0F472291 /* Test_enet_nat_punchthrough_server_xcode4_x64_release */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		0C8F19275FE955750D2C5549 /* Projects */ = {
+			isa = PBXGroup;
+			children = (
+				5126563217090044774168D5 /* enet.xcodeproj */,
+			);
+			name = "Projects";
+			sourceTree = "<group>";
+		};
+		4E6417223F0D186C13E47699 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34FB67C2079645825ED84EA6 /* libenet.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		054D1EF02D6B6F2241C7004C /* Test_enet_nat_punchthrough_server */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0363696242E847CA2BF10C80 /* Build configuration list for PBXNativeTarget "Test_enet_nat_punchthrough_server" */;
+			buildPhases = (
+				41324FD8260E7D8D613F0990 /* Resources */,
+				6B7E37041EE6358A0BE7734F /* Sources */,
+				6C2C71026A4029987B741044 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F083CA526B33D6541181557 /* PBXTargetDependency */,
+			);
+			name = "Test_enet_nat_punchthrough_server";
+			productInstallPath = "$(HOME)/bin";
+			productName = "Test_enet_nat_punchthrough_server";
+			productReference = 60241ACB0B47151A0F472291 /* Test_enet_nat_punchthrough_server_xcode4_x64_release */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08FB7793FE84155DC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Test_enet_nat_punchthrough_server" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 1;
+			mainGroup = 205E1248350D6CCE67AD3630 /* Test_enet_nat_punchthrough_server */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4E6417223F0D186C13E47699 /* Products */;
+					ProjectRef = 5126563217090044774168D5 /* enet.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				054D1EF02D6B6F2241C7004C /* Test_enet_nat_punchthrough_server_xcode4_x64_release */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		34FB67C2079645825ED84EA6 /* libenet.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "../../bin/libenet.a";
+			remoteRef = 68386C9D4B114CF8371C2037 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41324FD8260E7D8D613F0990 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B7E37041EE6358A0BE7734F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AEF3F6D361536C433E32BAE /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin PBXTargetDependency section */
+		2F083CA526B33D6541181557 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libenet.a";
+			targetProxy = 318F5D9717645BF00F0A159B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		67834FDB607D583E77605974 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "../../test/Bullet2/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				SDKROOT = iphoneos;
+				ARCHS = "armv7";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				CONFIGURATION_BUILD_DIR = "../../bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "Test_enet_nat_punchthrough_server_xcode4_x64_release";
+			};
+			name = "Release";
+		};
+		0ED02C7767052AA131BE39D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "../../test/Bullet2/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				SDKROOT = iphoneos;
+				ARCHS = "armv7";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CONFIGURATION_BUILD_DIR = "../../bin";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = "Test_enet_nat_punchthrough_server_xcode4_x64_debug";
+			};
+			name = "Debug";
+		};
+		7A144E1C37616DC46F867E68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "../../test/Bullet2/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				SDKROOT = iphoneos;
+				ARCHS = "armv7";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../examples/ThirdPartyLibs/enet/include",
+				);
+				OBJROOT = "obj/x64/Release/Test_enet_nat_punchthrough_server";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../bin";
+			};
+			name = "Release";
+		};
+		3B0238B85FF35EF40D042D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "../../test/Bullet2/Info.plist";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				SDKROOT = iphoneos;
+				ARCHS = "armv7";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7";
+				SDKROOT = macosx;
+				ARCHS = "x86_64";
+				CONFIGURATION_BUILD_DIR = "$(SYMROOT)";
+				CONFIGURATION_TEMP_DIR = "$(OBJROOT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"../../examples/ThirdPartyLibs/enet/include",
+				);
+				OBJROOT = "obj/x64/Debug/Test_enet_nat_punchthrough_server";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-ffast-math",
+				);
+				STANDARD_C_PLUS_PLUS_LIBRARY_TYPE = static;
+				SYMROOT = "../../bin";
+			};
+			name = "Debug";
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0363696242E847CA2BF10C80 /* Build configuration list for PBXNativeTarget "Test_enet_nat_punchthrough_server_xcode4_x64_release" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67834FDB607D583E77605974 /* Release */,
+				0ED02C7767052AA131BE39D6 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+		1DEB928908733DD80010E9CD /* Build configuration list for PBXProject "Test_enet_nat_punchthrough_server" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A144E1C37616DC46F867E68 /* Release */,
+				3B0238B85FF35EF40D042D61 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = "Release";
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 08FB7793FE84155DC02AAC07 /* Project object */;
+}
