@@ -16,6 +16,11 @@
     7. build
     8. output .a files are in bullet3-2.87/bin directory
     
+For simulator, switch scheme to any simulator and build. You can check that you got the right architectures (armv7, arm64 for device, x86_64 for simulator) by running
+```
+lipo -info [name of .a file]
+```
+    
 5. Generate headers:
     1. cd into bullet3-2.87
     2. cmake .
