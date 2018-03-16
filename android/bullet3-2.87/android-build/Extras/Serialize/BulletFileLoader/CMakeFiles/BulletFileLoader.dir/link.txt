@@ -1,0 +1,2 @@
+/Users/radvani/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/bin/aarch64-linux-android-ar qc libBulletFileLoader.a  CMakeFiles/BulletFileLoader.dir/bChunk.o CMakeFiles/BulletFileLoader.dir/bDNA.o CMakeFiles/BulletFileLoader.dir/bFile.o CMakeFiles/BulletFileLoader.dir/btBulletFile.o
+/Users/radvani/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/bin/aarch64-linux-android-ranlib libBulletFileLoader.a

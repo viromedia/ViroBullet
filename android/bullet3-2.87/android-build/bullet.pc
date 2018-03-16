@@ -1,0 +1,6 @@
+Name: bullet
+Description: Bullet Continuous Collision Detection and Physics Library
+Requires:
+Version: 2.87
+Libs: -L/Users/radvani/Source/ViroBullet/android/bullet3-2.87/android-build/android-build/lib -lBulletSoftBody -lBulletDynamics -lBulletCollision -lLinearMath
+Cflags:  -I/Users/radvani/Source/ViroBullet/android/bullet3-2.87/android-build/android-build/include/bullet -I/Users/radvani/Source/ViroBullet/android/bullet3-2.87/android-build/android-build/include

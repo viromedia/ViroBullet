@@ -1,0 +1,2 @@
+/Users/radvani/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/bin/aarch64-linux-android-ar qc libBulletWorldImporter.a  CMakeFiles/BulletWorldImporter.dir/btBulletWorldImporter.o CMakeFiles/BulletWorldImporter.dir/btWorldImporter.o
+/Users/radvani/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/bin/aarch64-linux-android-ranlib libBulletWorldImporter.a

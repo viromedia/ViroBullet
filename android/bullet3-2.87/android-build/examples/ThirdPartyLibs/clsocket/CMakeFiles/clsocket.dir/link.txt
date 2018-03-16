@@ -1,0 +1,2 @@
+/Users/radvani/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/bin/aarch64-linux-android-ar qc libclsocket.a  CMakeFiles/clsocket.dir/src/SimpleSocket.o CMakeFiles/clsocket.dir/src/ActiveSocket.o CMakeFiles/clsocket.dir/src/PassiveSocket.o
+/Users/radvani/Library/Android/sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/bin/aarch64-linux-android-ranlib libclsocket.a
